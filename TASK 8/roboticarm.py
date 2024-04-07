@@ -21,10 +21,10 @@ class Arm:
     def is_reachable(self):
         distance_to_target = np.linalg.norm(self.target_position)
         if distance_to_target <= 46 and distance_to_target >= 15*math.sqrt(2):
-            print("Target is reachable.")
+            print("Yes, Target is reachable.")
             return True
         else:
-            print("Target is not reachable.")
+            print("No, Target is not reachable.")
             return False
         
 def convert_to_coordinates(angles):
