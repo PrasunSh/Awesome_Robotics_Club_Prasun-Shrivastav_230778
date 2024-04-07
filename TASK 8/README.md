@@ -10,7 +10,7 @@ The logic behind till now was the least radius of sphere covered by the arm woul
        |
        |
 And the longest radius would be when the robotic arm is completely straight.
-I have considered that the angle is resticted between -90 to +90 from the previous arm.
+I have considered that the angle is resticted between -90 to +90 degrees from the previous arm.
 I have also found the initial joint coordinates using the angles.
 Also, I couldn't implement the FABRIK algorithm.
 
